@@ -1,0 +1,1 @@
+rm *png *base45 *base64 *bin
