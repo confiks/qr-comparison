@@ -5,6 +5,7 @@ test -e  ~/go/bin/qrbase45tool|| \
 
 for i in 01 02 03 04 05 06 06 07 09 
 do
+	i="output/$i"
 	openssl rand 500 > $i.bin
 
 	~/go/bin/qrbase45tool -e -i $i.bin -o $i.base45

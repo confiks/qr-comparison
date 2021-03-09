@@ -1,1 +1,1 @@
-rm *png *base45 *base64 *bin
+rm output/*png output/*base45 output/*base64 output/*bin
